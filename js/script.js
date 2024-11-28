@@ -46,7 +46,7 @@ const score = () => {
     }, 10);
 }
 
-const velEnemy= (elemento, retardo = 0) => {
+const velEnemy= (elemento) => {
     const velocidade = setInterval(() => {
         if(tempoJogador <= 15) {
             elemento.style.animation = `enemy 1.2s infinite linear`;
